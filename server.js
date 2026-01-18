@@ -5,11 +5,11 @@ const booksRead = require("./books.json");
 const HTTP_PORT = process.env.PORT || 8080;
 
 app.get("/", (req, res) => {
-  res.send({ message: `Updating this file in progress` });
+  res.sendFile(__dirname + "/Home.html");
 });
 
 app.get("/books", (req, res) => {
-  res.send({ booksRead });
+  res.sendFile(__dirname + "/books.json");
 });
 
 app.listen(HTTP_PORT, () => {
