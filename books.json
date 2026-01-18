@@ -3,5 +3,10 @@
     "id": 1,
     "bookName": "The Overthinker's Guide To Making Decisions",
     "author": "Joseph Nguyen"
+  },
+  {
+    "id": 2,
+    "bookName": "Introduction to algorithms",
+    "author": "Thomas H. Cormen"
   }
 ]
